@@ -1,0 +1,8 @@
+[2023-12-10 18:08:04] local.ERROR: Command "sevre" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"sevre\" is not defined. at D:\\php\\upwork\\debendra\\erp\\vendor\\symfony\\console\\Application.php:725)
+[stacktrace]
+#0 D:\\php\\upwork\\debendra\\erp\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->find('sevre')
+#1 D:\\php\\upwork\\debendra\\erp\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 D:\\php\\upwork\\debendra\\erp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 D:\\php\\upwork\\debendra\\erp\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 {main}
+"} 
